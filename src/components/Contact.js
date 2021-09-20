@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import CustomButton from './Button'
-import { FaGithub } from 'react-icons/fa'
 
 import DynamicFaIcon from '../utils/getDynamicIcons'
 import { contactsData } from '../datas/Contacts'
@@ -15,9 +14,9 @@ const Contact = ({ contactSection }) => {
           Contact
         </CustomButton>
         <StyledIconContainer>
-          {contactsData.map((data) => (
-            <StyledIcon>
-              <a href={data.url} target='_blank'>
+          {contactsData.map((data, index) => (
+            <StyledIcon key={index}>
+              <a href={data.url} target='_blank' rel='noreferrer'>
                 <DynamicFaIcon
                   className={data.icon === 'FaGithub' ? 'icon' : ''}
                   name={data.icon}
@@ -34,6 +33,8 @@ const Contact = ({ contactSection }) => {
 }
 
 const StyledContainer = styled.div`
+  max-width: 800px;
+  margin: 0 auto;
   padding-top: 64px;
   color: #ced6f3;
   text-align: center;
@@ -55,6 +56,7 @@ const StyledIconContainer = styled.div`
   width: 100%;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 `
 
