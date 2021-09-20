@@ -1,6 +1,7 @@
 export const portfolioDatas = [
   {
     title: 'Cambodia Geography',
+    subtitle: 'July - September',
     content:
       'Create a mobile application with 5 teammates of school project for people to find Cambodia geography and place information faster.',
     technologyImages: [
@@ -13,11 +14,11 @@ export const portfolioDatas = [
     ],
     links: [
       {
-        src: 'https://google.com',
+        src: 'https://github.com/CSG6Project1/cambodia_geography_mobile',
         title: 'GitHub',
       },
       {
-        src: 'https://google.com',
+        src: 'https://camgeo.juniorise.com/',
         title: 'Website',
       },
     ],
@@ -35,13 +36,13 @@ export const portfolioDatas = [
     ],
     links: [
       {
-        src: 'https://google.com',
+        src: 'https://github.com/niptict-g6/quote_app',
         title: 'GitHub',
       },
-      {
-        src: 'https://google.com',
-        title: 'Website',
-      },
+      // {
+      //   src: 'https://google.com',
+      //   title: 'Website',
+      // },
     ],
     projectImages: [
       'https://www.theachoem.com/assets/portfolios/quote-app/home.png',
@@ -54,16 +55,17 @@ export const portfolioDatas = [
     technologyImages: [
       'https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white',
       'https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white',
+      'https://img.shields.io/badge/Bootstrap-563d7c?style=for-the-badge&logo=bootstrap&logoColor=white',
     ],
     links: [
       {
-        src: 'https://google.com',
-        title: 'GitHub',
+        // src: '',
+        title: 'Under Construction',
       },
-      {
-        src: 'http://juniorise.herokuapp.com/',
-        title: 'Website',
-      },
+      // {
+      //   src: 'http://juniorise.herokuapp.com/',
+      //   title: 'Website',
+      // },
     ],
     projectImages: [
       'https://res.cloudinary.com/khaysing/image/upload/v1631976752/photo%20gallery/nsobmskj6zwhhxzjn1wh.png',

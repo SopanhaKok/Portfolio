@@ -33,7 +33,7 @@ const Introduction = () => {
       </div>
       <StyledTextContainer>
         <p>
-          experience in designing and developing cross-platform mobile
+          A junior in Computer Science school at CADT - passionate in developing cross-platform mobile
           applications. Based in Phnom Penh, Cambodia📍
         </p>
       </StyledTextContainer>

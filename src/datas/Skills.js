@@ -1,15 +1,15 @@
 export const skillsData = [
   {
-    icon: 'FaFlutter',
+    icon: 'FaCode',
     text: 'Flutter',
     size: '20',
     color: '#539E43',
   },
   {
-    icon: 'FaHtml5',
+    icon: 'FaLaptop',
     text: 'Dart',
     size: '20',
-    color: '#f0db4f',
+    color: '#C0C0C0',
   },
   {
     icon: 'FaHtml5',
@@ -24,10 +24,16 @@ export const skillsData = [
     color: '#1572B6',
   },
   {
-    icon: 'FaReact',
-    text: 'React js',
+    icon: 'FaBootstrap',
+    text: 'Bootstrap',
     size: '20',
-    color: '#88dded',
+    color: '#5637dc',
+  },
+  {
+    icon: 'FaPhp',
+    text: 'PHP',
+    size: '20',
+    color: '#787CB5',
   },
   {
     icon: 'FaLaravel',
