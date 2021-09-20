@@ -13,34 +13,31 @@ export const portfolioDatas = [
     ],
     links: [
       {
-        src: 'https://google.com',
+        src: 'https://github.com/CSG6Project1/cambodia_geography_mobile',
         title: 'GitHub',
       },
       {
-        src: 'https://google.com',
+        src: 'http://camgeo.juniorise.com',
         title: 'Website',
       },
     ],
     projectImages: [
+      'https://www.theachoem.com/assets/portfolios/camgeo/home.png',
       'https://www.theachoem.com/assets/portfolios/camgeo/home.png',
     ],
   },
   {
     title: 'Quote App',
     content:
-      'I work on Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis.',
+      'Create a mobile application with 3 teammates of school final exam. The application is for people who want to upload and read quotes.',
     technologyImages: [
       'https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white',
       'https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white',
     ],
     links: [
       {
-        src: 'https://google.com',
+        src: 'https://github.com/niptict-g6/quote_app',
         title: 'GitHub',
-      },
-      {
-        src: 'https://google.com',
-        title: 'Website',
       },
     ],
     projectImages: [
@@ -57,7 +54,7 @@ export const portfolioDatas = [
     ],
     links: [
       {
-        src: 'https://google.com',
+        src: 'https://github.com/niptict-g6/juniorise',
         title: 'GitHub',
       },
       {

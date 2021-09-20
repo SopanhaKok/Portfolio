@@ -9,14 +9,12 @@ export const educationData = [
     title: 'English',
     subtitle: 'Australian Center for Education',
     subtitle2:
-      'An open source mobile with API project. Term 6, Project 1 at CADT',
-    timeline: 'Jun 29, 2021 - Current',
+      'Graduated from ACE General English Program with IELTS over band score 5.5 on 20 September',
+    timeline: '2015 - 2018',
   },
   {
     title: 'HighSchool',
     subtitle: 'Chea Sim Sonthormuk High School',
-    subtitle2:
-      ' An open source mobile with API project. Term 6, Project 1 at CADT',
-    timeline: ' Graduated in 2019',
+    timeline: 'Graduated in 2019',
   },
 ]

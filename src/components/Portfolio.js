@@ -2,15 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import CustomButton from './Button'
 
-import { Link } from 'react-router-dom'
-
 const Portfolio = ({
   title,
   content,
   technologyImages,
   links,
   projectImages,
-  isDarkMode,
 }) => {
   return (
     <StyledListContainer>
@@ -18,15 +15,17 @@ const Portfolio = ({
         <h3>{title}</h3>
         <StyledText>{content}</StyledText>
         <StyledListTechnology>
-          {technologyImages.map((img) => (
-            <StyledTechnologyImage src={img} />
+          {technologyImages.map((img, index) => (
+            <StyledTechnologyImage key={index} src={img} />
           ))}
         </StyledListTechnology>
         <StyledButtonContainer>
-          {links.map((url) => (
+          {links.map((url, index) => (
             <a
+              key={index}
               href={url.src}
               target='_blank'
+              rel='noreferrer'
               style={{ textDecoration: 'none' }}
             >
               <CustomButton style={{ marginRight: '1rem' }}>
@@ -38,8 +37,8 @@ const Portfolio = ({
       </StyledContent>
       <StyledImageContainer>
         <StyledImageBorder>
-          {projectImages.map((img) => (
-            <StyledImage src={img} />
+          {projectImages.map((img, index) => (
+            <StyledImage key={index} src={img} />
           ))}
         </StyledImageBorder>
       </StyledImageContainer>
@@ -74,8 +73,8 @@ const StyledImageContainer = styled.div`
 `
 
 const StyledImage = styled.img`
-  margin-right: 0.5rem;
-  width: 6.25rem;
+  transform: translate(0, 8px);
+  max-width: 100%;
   @media (max-width: 800px) {
     width: 230px;
     height: 100%;
@@ -101,18 +100,13 @@ const StyledButtonContainer = styled.div`
 const StyledImageBorder = styled.div`
   background-color: ${(props) =>
     props.isDarkMode ? `rgba(255, 255, 255, 0.08)` : `rgba(0, 0, 0, 0.08)`};
-
   border-radius: 4px;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  @media (max-width: 800px) {
-    display: block;
-    width: 100%;
-    height: 500px;
-    text-align: center;
-  }
+  padding: 0 10px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: min(0.8vw, 10px);
+  grid-auto-flow: row;
+  overflow: hidden;
 `
 
 const StyledListTechnology = styled.div`

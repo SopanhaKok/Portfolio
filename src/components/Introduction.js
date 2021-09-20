@@ -4,6 +4,7 @@ import CustomButton from './Button'
 import { fadeIn } from '../animations'
 import { motion } from 'framer-motion'
 import Typewriter from 'typewriter-effect'
+import { introductionData } from '../datas/Introduction'
 
 const Introduction = () => {
   return (
@@ -19,7 +20,7 @@ const Introduction = () => {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .typeString('Sopanha')
+                .typeString(introductionData.name)
                 .pauseFor(1500)
                 .deleteAll()
                 .start()
@@ -29,19 +30,13 @@ const Introduction = () => {
             }}
           />
         </h1>
-        <h2 style={{ fontWeight: 'lighter' }}>Web Developer!</h2>
+        <h2 style={{ fontWeight: 'lighter' }}>{introductionData.position}</h2>
       </div>
       <StyledTextContainer>
-        <p>
-          1 year of experience in designing and developing cross-platform mobile
-          applications. Based in Phnom Penh, Cambodia📍
-        </p>
+        <p>{introductionData.description}</p>
       </StyledTextContainer>
       <StyledButtonContainer>
-        <a
-          style={{ textDecoration: 'none' }}
-          href='https://doc-0o-3s-docs.googleusercontent.com/docs/securesc/d2q4vvbqhb05om9otlmpdie8kmcmbd89/2h5blkdbel7nhf67lk793tk5idg631ef/1632064350000/09656665915129857030/09656665915129857030/11iO1e7yWHgV8DzRLfKzsyZMZndDXnx5O?e=download&authuser=0&nonce=t3ttsk9jhnbvc&user=09656665915129857030&hash=21gm3d5p95k26cpoc0nmupbomlh1mtem'
-        >
+        <a style={{ textDecoration: 'none' }} href={introductionData.cvUrl}>
           <CustomButton>CV</CustomButton>
         </a>
       </StyledButtonContainer>
@@ -50,6 +45,8 @@ const Introduction = () => {
 }
 
 const StyledContainer = styled(motion.div)`
+  max-width: 800px;
+  margin: 0 auto;
   padding-top: 64px;
   text-align: center;
 `
