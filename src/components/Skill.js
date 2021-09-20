@@ -10,8 +10,9 @@ const Skill = ({ skillSection }) => {
     <StyledContainer ref={skillSection}>
       <StyledTitle>Skills</StyledTitle>
       <StyledSkillContainer>
-        {skillsData.map((data) => (
+        {skillsData.map((data, index) => (
           <StyledButtonSkill
+            key={index}
             whileHover={{ scale: 1.1 }}
             transition={{ type: 'spring', stiffness: 100 }}
           >
