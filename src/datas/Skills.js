@@ -29,12 +29,12 @@ export const skillsData = [
     size: '20',
     color: '#5637dc',
   },
-  {
-    icon: 'FaPhp',
-    text: 'PHP',
-    size: '20',
-    color: '#787CB5',
-  },
+  // {
+  //   icon: 'FaPhp',
+  //   text: 'PHP',
+  //   size: '20',
+  //   color: '#787CB5',
+  // },
   {
     icon: 'FaLaravel',
     text: 'Laravel',

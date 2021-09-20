@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMoon } from '@fortawesome/free-solid-svg-icons'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../animations'
+import { navBarName } from '../datas/Introduction'
 
 const NavBar = ({
   goToSkill,
@@ -12,30 +13,48 @@ const NavBar = ({
   goToContact,
   themeToggler,
 }) => {
+  const [navBar, setNavBar] = useState(false)
+  const changeBackground = () => {
+    if (window.scrollY > 70) {
+      setNavBar(true)
+    } else {
+      setNavBar(false)
+    }
+  }
+
+  window.addEventListener('scroll', changeBackground)
   return (
-    <StyledContainer
-      className='navbar'
-      variants={fadeIn}
-      initial='hidden'
-      animate='show'
-      transition={{ type: 'spring', delay: 0.2, bounce: 0.3 }}
-    >
-      <h3>VC.</h3>
-      <StyledNavBarContainer>
-        <StyledNavList onClick={goToPortfolio}>Portfolio</StyledNavList>
-        <StyledNavList onClick={goToSkill}>Skills</StyledNavList>
-        <StyledNavList onClick={goToContact}>Contacts</StyledNavList>
-        <StyledNavList onClick={goToEducation}>Educations</StyledNavList>
-        <StyledNavList onClick={themeToggler}>
-          <FontAwesomeIcon className='icon' icon={faMoon} />
-        </StyledNavList>
-      </StyledNavBarContainer>
-    </StyledContainer>
+    <StyledNavBar className={navBar ? 'navbar active' : 'navbar'}>
+      <StyledContainer
+        className='navbar'
+        variants={fadeIn}
+        initial='hidden'
+        animate='show'
+        transition={{ type: 'spring', delay: 0.2, bounce: 0.3 }}
+      >
+        <h3>{navBarName}</h3>
+        <StyledNavBarContainer>
+          <StyledNavList onClick={goToPortfolio}>Portfolio</StyledNavList>
+          <StyledNavList onClick={goToSkill}>Skills</StyledNavList>
+          <StyledNavList onClick={goToEducation}>Educations</StyledNavList>
+          <StyledNavList onClick={goToContact}>Contacts</StyledNavList>
+          <StyledNavList onClick={themeToggler}>
+            <FontAwesomeIcon className='icon' icon={faMoon} />
+          </StyledNavList>
+        </StyledNavBarContainer>
+      </StyledContainer>
+    </StyledNavBar>
   )
 }
 
+const StyledNavBar = styled.nav`
+  width: 100%;
+`
+
 const StyledContainer = styled(motion.div)`
   display: flex;
+  max-width: 800px;
+  margin: 0 auto;
   justify-content: space-between;
   padding: 30px 0;
   @media (max-width: 820px) {

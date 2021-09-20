@@ -19,7 +19,7 @@ const Education = ({ educationSection, isDarkMode }) => {
       <StyledTitle>Educations</StyledTitle>
       <Timeline className='education' position='alternate' sx={{ pt: '2rem' }}>
         {educationData.map((data, index) => (
-          <TimelineItem>
+          <TimelineItem key={index}>
             <TimelineOppositeContent
               sx={{ m: '1.75rem 0' }}
               variant='body2'
@@ -65,100 +65,14 @@ const Education = ({ educationSection, isDarkMode }) => {
             </TimelineContent>
           </TimelineItem>
         ))}
-        {/* <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: '1.75rem 0' }}
-            align='right'
-            variant='body2'
-            color='text.main'
-          >
-            <Typography variant='h6'>Computer Science Student</Typography>
-            <Typography
-              variant='subtitle1'
-              style={{ color: '#0ACF83', fontWeight: 'lighter' }}
-            >
-              Cambodia Academy of Digital Technology
-            </Typography>
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineConnector />
-            <TimelineDot color='inherit' style={{ borderColor: '#0ACF83' }}>
-              <SchoolIcon />
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent sx={{ m: 'auto 0' }}>
-            Jun 29, 2021 - Current
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: '1.75rem 0' }}
-            variant='body2'
-            color='text.main'
-          >
-            <Typography variant='h6' component='span'>
-              English
-            </Typography>
-            <Typography
-              variant='subtitle1'
-              style={{ color: '#0ACF83', fontWeight: 'lighter' }}
-            >
-              Australian Center for Education
-            </Typography>
-            <Typography variant='subtitle2'>
-              An open source mobile with API project. Term 6, Project 1 at CADT
-            </Typography>
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineConnector />
-            <TimelineDot
-              color='inherit'
-              style={{ borderColor: '#0ACF83', width: '34px', height: '34px' }}
-            ></TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent sx={{ m: 'auto 0' }}>
-            Jun 29, 2021 - Current
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: '1.75rem 0' }}
-            variant='body2'
-            color='text.main'
-          >
-            <Typography variant='h6' component='span'>
-              HighSchool
-            </Typography>
-            <Typography
-              variant='subtitle1'
-              style={{ color: '#0ACF83', fontWeight: 'lighter' }}
-            >
-              Chea Sim Sonthormuk High School
-            </Typography>
-            <Typography variant='subtitle2'>
-              An open source mobile with API project. Term 6, Project 1 at CADT
-            </Typography>
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineConnector />
-            <TimelineDot
-              color='inherit'
-              style={{ borderColor: '#0ACF83', width: '34px', height: '34px' }}
-            ></TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent sx={{ m: 'auto 0' }}>
-            Graduated in 2019
-          </TimelineContent>
-        </TimelineItem> */}
       </Timeline>
     </StyledContainer>
   )
 }
 
 const StyledContainer = styled.div`
+  max-width: 800px;
+  margin: 0 auto;
   padding-top: 64px;
   color: #ced6f3;
   text-align: center;

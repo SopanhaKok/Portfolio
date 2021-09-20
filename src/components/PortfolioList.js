@@ -13,8 +13,9 @@ const PortfolioList = ({ portfolioSection, isDarkMode }) => {
       animate='show'
     >
       <StyledTitle>Portfolio</StyledTitle>
-      {portfolioDatas.map((data) => (
+      {portfolioDatas.map((data, index) => (
         <Portfolio
+          key={index}
           title={data.title}
           subtitle={data.subtitle}
           content={data.content}
@@ -29,6 +30,8 @@ const PortfolioList = ({ portfolioSection, isDarkMode }) => {
 }
 
 const StyledContainer = styled(motion.div)`
+  max-width: 800px;
+  margin: 0 auto;
   padding-top: 64px;
   color: #ced6f3;
 `
