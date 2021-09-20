@@ -15,6 +15,6 @@ export const educationData = [
   {
     title: 'HighSchool',
     subtitle: 'Chea Sim Sonthormuk High School',
-    timeline: ' Graduated in 2019',
+    timeline: 'Graduated in 2019',
   },
 ]

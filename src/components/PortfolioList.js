@@ -12,7 +12,7 @@ const PortfolioList = ({ portfolioSection, isDarkMode }) => {
       initial='hidden'
       animate='show'
     >
-      <StyledTitle>Portfolio</StyledTitle>
+      <StyledTitle>Portfolios</StyledTitle>
       {portfolioDatas.map((data, index) => (
         <Portfolio
           key={index}

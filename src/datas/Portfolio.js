@@ -41,10 +41,6 @@ export const portfolioDatas = [
         src: 'https://github.com/niptict-g6/quote_app',
         title: 'GitHub',
       },
-      // {
-      //   src: 'https://google.com',
-      //   title: 'Website',
-      // },
     ],
     projectImages: [
       'https://www.theachoem.com/assets/portfolios/quote-app/home.png',
@@ -63,11 +59,9 @@ export const portfolioDatas = [
       {
         src: '',
         title: 'Under Construction',
+        src: '',
+        title: 'GitHub',
       },
-      // {
-      //   src: 'http://juniorise.herokuapp.com/',
-      //   title: 'Website',
-      // },
     ],
     projectImages: [
       // 'https://res.cloudinary.com/khaysing/image/upload/v1631976752/photo%20gallery/nsobmskj6zwhhxzjn1wh.png',
