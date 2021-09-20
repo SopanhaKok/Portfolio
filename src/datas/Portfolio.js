@@ -59,8 +59,6 @@ export const portfolioDatas = [
       {
         src: '',
         title: 'Under Construction',
-        src: '',
-        title: 'GitHub',
       },
     ],
     projectImages: [
