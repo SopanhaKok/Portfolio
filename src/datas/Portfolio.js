@@ -29,7 +29,7 @@ export const portfolioDatas = [
   {
     title: 'Quote App',
     content:
-      'Quote App allows user to upload their favorite quote or compose their own quote. I contributed in this project with other 2 friends in this project and I worked on log in and sign up screen.',
+      'Quote App allows user to upload their favorite quote or compose their own quote. I contributed in this project with other 2 friends and I worked on log in and sign up screen.',
     technologyImages: [
       'https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white',
       'https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white',
@@ -57,7 +57,7 @@ export const portfolioDatas = [
     ],
     links: [
       {
-        src: '',
+        // src: '',
         title: 'Under Construction',
       },
     ],
