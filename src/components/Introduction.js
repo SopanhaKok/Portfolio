@@ -19,7 +19,7 @@ const Introduction = () => {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .typeString('Sopanha')
+                .typeString('Vatanak')
                 .pauseFor(1500)
                 .deleteAll()
                 .start()
@@ -29,11 +29,11 @@ const Introduction = () => {
             }}
           />
         </h1>
-        <h2 style={{ fontWeight: 'lighter' }}>Web Developer!</h2>
+        <h2 style={{ fontWeight: 'lighter' }}>Mobile Developer!</h2>
       </div>
       <StyledTextContainer>
         <p>
-          1 year of experience in designing and developing cross-platform mobile
+          experience in designing and developing cross-platform mobile
           applications. Based in Phnom Penh, Cambodia📍
         </p>
       </StyledTextContainer>

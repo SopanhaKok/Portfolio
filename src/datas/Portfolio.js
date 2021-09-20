@@ -48,7 +48,7 @@ export const portfolioDatas = [
     ],
   },
   {
-    title: 'Juniorise Web',
+    title: 'vRean',
     content:
       'Create a website with 3 teammates of school project for junior in order to gather information about university using Laravel',
     technologyImages: [

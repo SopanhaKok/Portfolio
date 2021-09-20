@@ -20,7 +20,7 @@ const NavBar = ({
       animate='show'
       transition={{ type: 'spring', delay: 0.2, bounce: 0.3 }}
     >
-      <h3>SK.</h3>
+      <h3>VC.</h3>
       <StyledNavBarContainer>
         <StyledNavList onClick={goToPortfolio}>Portfolio</StyledNavList>
         <StyledNavList onClick={goToSkill}>Skills</StyledNavList>
