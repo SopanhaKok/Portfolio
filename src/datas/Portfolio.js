@@ -2,7 +2,7 @@ export const portfolioDatas = [
   {
     title: "Cambodia Geography",
     content:
-      "Create a mobile application with 5 teammates of school project for people to find Cambodia geography and place information faster.",
+      "A cross-platform application to find tour places, restuarants and explore geography in Cambodia. I contribute with 4 other friends and I work on developing mobile UI and connecting to API.",
     technologyImages: [
       "https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white",
       "https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white",
