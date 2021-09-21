@@ -61,11 +61,7 @@ button {
     background-color: ${(props) => props.theme.backgroundButton};
     border: ${(props) => props.theme.border};
     box-shadow:  ${(props) => props.theme.boxShadow};
-<<<<<<< HEAD
-    transition: ease-in-out 0.3s ;
-=======
     transition: all ease 0.7s ;
->>>>>>> e890a2bf0b8238c219629e0d9ea2c3df3df6d8d9
     font-family: 'Poppins', sans-serif;
     padding: 0.75rem 2rem;
     cursor: pointer;
@@ -106,21 +102,11 @@ nav {
 }
 
 .active {
-<<<<<<< HEAD
-    background-color: ${(props) => props.theme.navBar};
-    position: fixed;
-    z-index: 99;
-    div,h3,s {
-        color:  ${(props) => props.theme.stickNavBar};
-    }
-    
-=======
     box-shadow: 10px 5px 5px #00000025;
     height: 100px;
     div,h3,s {
         // color:  ${(props) => props.theme.stickNavBar};
     }
->>>>>>> e890a2bf0b8238c219629e0d9ea2c3df3df6d8d9
 }
 
 .education  {
