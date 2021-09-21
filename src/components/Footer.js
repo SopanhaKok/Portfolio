@@ -6,6 +6,8 @@ const Footer = () => {
 }
 
 const StyledContainer = styled.div`
+  max-width: 800px;
+  margin: 0 auto;
   padding: 10rem 0 1rem 0;
   text-align: center;
   font-weight: lighter;
