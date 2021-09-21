@@ -33,7 +33,16 @@ const Introduction = () => {
         <h2 style={{ fontWeight: "lighter" }}>{introductionData.position}</h2>
       </div>
       <StyledTextContainer>
-        <p>{introductionData.description}</p>
+        {/* <p>{introductionData.description}</p> */}
+        <p>
+          Developing cross-platform mobile applications. Expoloring in Computer
+          Science Field at{" "}
+          <a href="https://cadt.edu.kh/" target="_blank">
+            {" "}
+            Cambodia Academy of Digital Technology
+          </a>
+          . Based in Phnom Penh, Cambodia📍
+        </p>
       </StyledTextContainer>
       <StyledButtonContainer>
         <a style={{ textDecoration: "none" }} href={introductionData.cvUrl}>

@@ -1,13 +1,11 @@
-export const navBarName = 'SP'
+export const navBarName = 'DR'
 
 export const introductionData = {
   name: 'Sopanha',
-  position: 'Web Developer!',
-  description: `I am a third year student of  
-  computer science at CADT. I  
-  am a motivated and hard working 
-  person. I am a reliable team 
-  worker and adaptable to all  
-  challenging situations.`,
+  position: 'Mobile Developer!',
+  description: `
+  Developing cross-platform mobile applications. 
+  Expoloring in Computer Science Field at <a href="https://cadt.edu.kh/" target="_blank"> Cambodia Academy of Digital Technology</a>.
+  Based in Phnom Penh, Cambodia📍 `,
   cvUrl: 'https://google.com',
 }
