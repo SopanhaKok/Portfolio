@@ -49,10 +49,14 @@ const NavBar = ({
 
 const StyledNavBar = styled.nav`
   width: 100%;
+  display: flex;
+  align-items: center;
+  opacity: 1;
 `
 
 const StyledContainer = styled(motion.div)`
   display: flex;
+  align-items:center;
   max-width: 800px;
   margin: 0 auto;
   justify-content: space-between;

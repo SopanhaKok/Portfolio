@@ -10,6 +10,7 @@ export const lightTheme = {
   stickNavBar: '#FFFFFF',
   backgroundButton: '#FFFFFF',
   boxShadow: 'inset 0 0 0 0 #0077CC',
+
   border: '2px solid #519DFF',
   hoverBorderButton: '2px solid #0077CC',
   hoverBoxShadowButton: 'inset 300px 0 0 0 #0077CC',
@@ -61,7 +62,7 @@ button {
     background-color: ${(props) => props.theme.backgroundButton};
     border: ${(props) => props.theme.border};
     box-shadow:  ${(props) => props.theme.boxShadow};
-    transition: ease-in-out 0.3s ;
+    transition: all ease 0.7s ;
     font-family: 'Poppins', sans-serif;
     padding: 0.75rem 2rem;
     cursor: pointer;
@@ -69,7 +70,6 @@ button {
         border: ${(props) => props.theme.hoverBorderButton};
         box-shadow:  ${(props) => props.theme.hoverBoxShadowButton};
         background-color: ${(props) => props.theme.hoverBackgroundButton};
-        font-family: 'Poppins', sans-serif;
         color:  #FFFFFF ;
     }
 }
@@ -85,20 +85,29 @@ button {
     color: ${(props) => props.theme.fontColor};
 }
 
+nav {
+    background-color: ${(props) => props.theme.body};
+}
+
 .navbar {
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 56px;
+    transition: all 0.25s ease;
+    width: 100%;
+    z-index: 99;
     h3,div{
         color:  ${(props) => props.theme.navBar};
     }   
 }
 
 .active {
-    background-color: ${(props) => props.theme.navBar};
-    position: fixed;
-    z-index: 99;
+    box-shadow: 10px 5px 5px #00000025;
+    height: 100px;
     div,h3,s {
-        color:  ${(props) => props.theme.stickNavBar};
+        // color:  ${(props) => props.theme.stickNavBar};
     }
-    
 }
 
 .education  {
