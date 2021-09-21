@@ -1,6 +1,6 @@
-import React from 'react'
-import styled from 'styled-components'
-import CustomButton from './Button'
+import React from "react";
+import styled from "styled-components";
+import CustomButton from "./Button";
 
 const Portfolio = ({
   title,
@@ -24,13 +24,11 @@ const Portfolio = ({
             <a
               key={index}
               href={url.src}
-              target='_blank'
-              rel='noreferrer'
-              style={{ textDecoration: 'none' }}
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none", marginRight: "1rem" }}
             >
-              <CustomButton style={{ marginRight: '1rem' }}>
-                {url.title}
-              </CustomButton>
+              <CustomButton>{url.title}</CustomButton>
             </a>
           ))}
         </StyledButtonContainer>
@@ -43,8 +41,8 @@ const Portfolio = ({
         </StyledImageBorder>
       </StyledImageContainer>
     </StyledListContainer>
-  )
-}
+  );
+};
 
 const StyledListContainer = styled.div`
   margin-top: 2rem;
@@ -54,7 +52,7 @@ const StyledListContainer = styled.div`
     display: block;
     text-align: center;
   }
-`
+`;
 
 const StyledContent = styled.div`
   flex: 3;
@@ -62,7 +60,7 @@ const StyledContent = styled.div`
   @media (max-width: 800px) {
     margin-right: 0;
   }
-`
+`;
 
 const StyledImageContainer = styled.div`
   flex: 2;
@@ -70,7 +68,7 @@ const StyledImageContainer = styled.div`
     max-width: 100%;
     width: 100%;
   }
-`
+`;
 
 const StyledImage = styled.img`
   transform: translate(0, 8px);
@@ -83,11 +81,11 @@ const StyledImage = styled.img`
     object-fit: cover;
     margin-right: 0;
   }
-`
+`;
 
 const StyledText = styled.p`
   margin: 0.5rem 0;
-`
+`;
 
 const StyledButtonContainer = styled.div`
   display: flex;
@@ -95,7 +93,7 @@ const StyledButtonContainer = styled.div`
     justify-content: center;
     margin-bottom: 2rem;
   }
-`
+`;
 
 const StyledImageBorder = styled.div`
   background-color: ${(props) =>
@@ -107,7 +105,7 @@ const StyledImageBorder = styled.div`
   gap: min(0.8vw, 10px);
   grid-auto-flow: row;
   overflow: hidden;
-`
+`;
 
 const StyledListTechnology = styled.div`
   margin-bottom: 1rem;
@@ -119,10 +117,10 @@ const StyledListTechnology = styled.div`
     max-width: 100%;
     justify-content: center;
   }
-`
+`;
 
 const StyledTechnologyImage = styled.img`
   margin: 0.3rem 0.3rem 0 0;
-`
+`;
 
-export default Portfolio
+export default Portfolio;
