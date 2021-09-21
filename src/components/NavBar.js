@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMoon } from '@fortawesome/free-solid-svg-icons'
-import styled from 'styled-components'
-import { motion } from 'framer-motion'
-import { fadeIn } from '../animations'
-import { navBarName } from '../datas/Introduction'
+import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMoon } from "@fortawesome/free-solid-svg-icons";
+import styled from "styled-components";
+import { motion } from "framer-motion";
+import { fadeIn } from "../animations";
+import { navBarName } from "../datas/Introduction";
 
 const NavBar = ({
   goToSkill,
@@ -13,24 +13,24 @@ const NavBar = ({
   goToContact,
   themeToggler,
 }) => {
-  const [navBar, setNavBar] = useState(false)
+  const [navBar, setNavBar] = useState(false);
   const changeBackground = () => {
     if (window.scrollY > 70) {
-      setNavBar(true)
+      setNavBar(true);
     } else {
-      setNavBar(false)
+      setNavBar(false);
     }
-  }
+  };
 
-  window.addEventListener('scroll', changeBackground)
+  window.addEventListener("scroll", changeBackground);
   return (
-    <StyledNavBar className={navBar ? 'navbar active' : 'navbar'}>
+    <StyledNavBar className={navBar ? "navbar active" : "navbar"}>
       <StyledContainer
-        className='navbar'
+        className="navbar"
         variants={fadeIn}
-        initial='hidden'
-        animate='show'
-        transition={{ type: 'spring', delay: 0.2, bounce: 0.3 }}
+        initial="hidden"
+        animate="show"
+        transition={{ type: "spring", delay: 0.2, bounce: 0.3 }}
       >
         <h3>{navBarName}</h3>
         <StyledNavBarContainer>
@@ -39,20 +39,24 @@ const NavBar = ({
           <StyledNavList onClick={goToEducation}>Educations</StyledNavList>
           <StyledNavList onClick={goToContact}>Contacts</StyledNavList>
           <StyledNavList onClick={themeToggler}>
-            <FontAwesomeIcon className='icon' icon={faMoon} />
+            <FontAwesomeIcon className="icon" icon={faMoon} />
           </StyledNavList>
         </StyledNavBarContainer>
       </StyledContainer>
     </StyledNavBar>
-  )
-}
+  );
+};
 
 const StyledNavBar = styled.nav`
   width: 100%;
-`
+  display: flex;
+  align-items: center;
+  opacity: 1;
+`;
 
 const StyledContainer = styled(motion.div)`
   display: flex;
+  align-items: center;
   max-width: 800px;
   margin: 0 auto;
   justify-content: space-between;
@@ -65,7 +69,7 @@ const StyledContainer = styled(motion.div)`
     display: block;
     text-align: center;
   }
-`
+`;
 
 const StyledNavBarContainer = styled.div`
   width: 20rem;
@@ -78,10 +82,10 @@ const StyledNavBarContainer = styled.div`
     justify-contetn: center;
     text-align: center;
   }
-`
+`;
 
 const StyledNavList = styled.div`
   cursor: pointer;
-`
+`;
 
-export default NavBar
+export default NavBar;
