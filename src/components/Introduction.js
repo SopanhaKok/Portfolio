@@ -47,7 +47,7 @@ const Introduction = () => {
 const StyledContainer = styled(motion.div)`
   max-width: 800px;
   margin: 0 auto;
-  padding-top: 64px;
+  padding-top: 164px;
   text-align: center;
 `
 
