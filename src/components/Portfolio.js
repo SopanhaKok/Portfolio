@@ -26,9 +26,9 @@ const Portfolio = ({
               href={url.src}
               target='_blank'
               rel='noreferrer'
-              style={{ textDecoration: 'none' }}
+              style={{ textDecoration: 'none',marginRight: '1rem' }}
             >
-              <CustomButton style={{ marginRight: '1rem' }}>
+              <CustomButton >
                 {url.title}
               </CustomButton>
             </a>
