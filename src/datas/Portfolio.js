@@ -44,6 +44,7 @@ export const portfolioDatas = [
     ],
     projectImages: [
       'https://www.theachoem.com/assets/portfolios/quote-app/home.png',
+      'https://www.theachoem.com/assets/portfolios/quote-app/login.png',
     ],
   },
   {
@@ -67,5 +68,43 @@ export const portfolioDatas = [
     projectImages: [
       'https://res.cloudinary.com/khaysing/image/upload/v1631976752/photo%20gallery/nsobmskj6zwhhxzjn1wh.png',
     ],
+  },
+  {
+    title: 'Photo Gallery',
+    content: 'A website use for upload images ',
+    technologyImages: [
+      'https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB',
+      'https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white',
+      'https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white',
+      'https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white',
+    ],
+    links: [
+      {
+        src: 'https://photo-gallery-mern.herokuapp.com/',
+        title: 'Website',
+      },
+    ],
+    projectImages: [],
+  },
+  {
+    title: 'React Authentication',
+    content: 'Authentication using JWT web token',
+    technologyImages: [
+      'https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB',
+      'https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white',
+      'https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white',
+      'https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white',
+    ],
+    links: [
+      {
+        src: 'https://github.com/SopanhaKok/Authentication_JWT_REACT',
+        title: 'Github',
+      },
+      {
+        src: 'https://react-jwt-authentication.herokuapp.com/',
+        title: 'Website',
+      },
+    ],
+    projectImages: [],
   },
 ]

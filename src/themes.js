@@ -99,7 +99,8 @@ nav {
     z-index: 99;
     h3,div{
         color:  ${(props) => props.theme.navBar};
-    }   
+    }  
+  
 }
 
 .active {
@@ -108,6 +109,10 @@ nav {
     div,h3,s {
         // color:  ${(props) => props.theme.stickNavBar};
     }
+
+    @media (max-width: 400px) {
+        height:120px;
+      }
 }
 
 .education  {

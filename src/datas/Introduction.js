@@ -9,5 +9,5 @@ export const introductionData = {
   person. I am a reliable team 
   worker and adaptable to all  
   challenging situations.`,
-  cvUrl: 'https://google.com',
+  cvUrl: '#',
 }
