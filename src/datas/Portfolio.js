@@ -44,6 +44,7 @@ export const portfolioDatas = [
     ],
     projectImages: [
       'https://www.theachoem.com/assets/portfolios/quote-app/home.png',
+      'https://www.theachoem.com/assets/portfolios/quote-app/login.png',
     ],
   },
   {
@@ -57,7 +58,7 @@ export const portfolioDatas = [
     ],
     links: [
       {
-        // src: '',
+        src: '#',
         title: 'Under Construction',
       },
     ],
