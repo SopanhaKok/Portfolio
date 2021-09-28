@@ -63,8 +63,8 @@ export const portfolioDatas = [
       },
     ],
     projectImages: [
-      'https://res.cloudinary.com/cadt/image/upload/v1632809746/vRean/Group_1_kvnbqy.png',
-      'https://res.cloudinary.com/cadt/image/upload/v1632809746/vRean/Group_2_go3w5e.png',
+      'https://res.cloudinary.com/cadt/image/upload/v1632818769/vRean/Group_3_nbdhat.png',
+      'https://res.cloudinary.com/cadt/image/upload/v1632818769/vRean/Group_4_qcq6u9.png',
     ],
   },
 ]
