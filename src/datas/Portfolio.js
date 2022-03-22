@@ -43,8 +43,8 @@ export const portfolioDatas = [
       },
     ],
     projectImages: [
-      'https://www.theachoem.com/assets/portfolios/quote-app/home.png',
-      'https://www.theachoem.com/assets/portfolios/quote-app/login.png',
+      'https://thea.juniorise.com/assets/portfolios/quote-app/home.png',
+      'https://thea.juniorise.com/assets/portfolios/quote-app/login.png',
     ],
   },
   {
