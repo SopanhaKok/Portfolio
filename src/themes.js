@@ -109,6 +109,10 @@ nav {
     div,h3,s {
         // color:  ${(props) => props.theme.stickNavBar};
     }
+
+    @media (max-width: 400px) {
+        height:120px;
+      }
 }
 
 .education  {

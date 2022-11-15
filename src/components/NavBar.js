@@ -56,7 +56,7 @@ const StyledNavBar = styled.nav`
 
 const StyledContainer = styled(motion.div)`
   display: flex;
-  align-items:center;
+  align-items: center;
   max-width: 800px;
   margin: 0 auto;
   justify-content: space-between;

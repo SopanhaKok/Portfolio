@@ -2,7 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Footer = () => {
-  return <StyledContainer> &copy; Copyright 2021 - Vatanak Chamroeun</StyledContainer>
+  const year = new Date().getFullYear()
+  return <StyledContainer> &copy; Copyright {year}, Vatanak Chamroeun</StyledContainer>
 }
 
 const StyledContainer = styled.div`

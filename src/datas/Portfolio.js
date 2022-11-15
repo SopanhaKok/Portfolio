@@ -47,24 +47,4 @@ export const portfolioDatas = [
       'https://thea.juniorise.com/assets/portfolios/quote-app/login.png',
     ],
   },
-  {
-    title: 'vRean',
-    content:
-      'vRean is a social media platform which is created by Laravel. I contributed with other 2 friends and I worked on developing UI using Bootstrap.',
-    technologyImages: [
-      'https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white',
-      'https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white',
-      'https://img.shields.io/badge/Bootstrap-563d7c?style=for-the-badge&logo=bootstrap&logoColor=white',
-    ],
-    links: [
-      {
-        src: 'http://vrean.herokuapp.com/login',
-        title: 'Webiste',
-      },
-    ],
-    projectImages: [
-      'https://res.cloudinary.com/cadt/image/upload/v1632809746/vRean/Group_1_kvnbqy.png',
-      'https://res.cloudinary.com/cadt/image/upload/v1632809746/vRean/Group_2_go3w5e.png',
-    ],
-  },
 ]
