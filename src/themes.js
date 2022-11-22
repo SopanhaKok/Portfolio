@@ -93,7 +93,7 @@ nav {
     left: 0;
     right: 0;
     position: fixed;
-    height: 56px;
+    height: 100px;
     transition: all 0.25s ease;
     width: 100%;
     z-index: 99;
@@ -105,7 +105,7 @@ nav {
 
 .active {
     box-shadow: 10px 5px 5px #00000025;
-    height: 100px;
+    height: 56px;
     div,h3,s {
         // color:  ${(props) => props.theme.stickNavBar};
     }
