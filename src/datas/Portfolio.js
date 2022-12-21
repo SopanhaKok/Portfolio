@@ -1,5 +1,47 @@
 export const portfolioDatas = [
   {
+    title: 'Dalin Store',
+    content:
+      'Freelance project build a website for topup in-game diamond with aba payment integration ',
+    technologyImages: [
+      'https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white',
+      'https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB',
+      'https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white',
+    ],
+    links: [
+      {
+        src: 'https://dalinstores.com',
+        title: 'Website',
+      },
+    ],
+    projectImages: [
+      // 'https://api.dalinstores.com/uploads/images/95cb666cfabff5f88fcb8503fa97f664.png',
+    ],
+  },
+  {
+    title: 'Finite Automata',
+    content:
+      'Create a web application to manage finite state machine with classmates.',
+    technologyImages: [
+      'https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white',
+      'https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB',
+      'https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black',
+    ],
+    links: [
+      {
+        src: 'https://github.com/cadt-g6/finite_automata',
+        title: 'GitHub',
+      },
+      {
+        src: 'https://fa-cadt.netlify.app/',
+        title: 'Website',
+      },
+    ],
+    projectImages: [
+      'https://user-images.githubusercontent.com/29684683/169877999-6c5a922e-8817-48aa-99f0-4a478d20d4ab.png',
+    ],
+  },
+  {
     title: 'Cambodia Geography',
     content:
       'Create a mobile application with 5 teammates of school project for people to find Cambodia geography and place information faster.',
@@ -16,10 +58,10 @@ export const portfolioDatas = [
         src: 'https://github.com/CSG6Project1/cambodia_geography_mobile',
         title: 'GitHub',
       },
-      {
-        src: 'http://camgeo.juniorise.com',
-        title: 'Website',
-      },
+      // {
+      //   src: 'http://camgeo.juniorise.com',
+      //   title: 'Website',
+      // },
     ],
     projectImages: [
       'https://user-images.githubusercontent.com/64341213/134033029-1147e609-8687-491d-8484-3e6b32844e20.png',
@@ -79,10 +121,10 @@ export const portfolioDatas = [
       'https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white',
     ],
     links: [
-      {
-        src: 'https://photo-gallery-mern.herokuapp.com/',
-        title: 'Website',
-      },
+      // {
+      //   src: 'https://photo-gallery-mern.herokuapp.com/',
+      //   title: 'Website',
+      // },
     ],
     projectImages: [],
   },
@@ -96,14 +138,14 @@ export const portfolioDatas = [
       'https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white',
     ],
     links: [
-      {
-        src: 'https://github.com/SopanhaKok/Authentication_JWT_REACT',
-        title: 'Github',
-      },
-      {
-        src: 'https://react-jwt-authentication.herokuapp.com/',
-        title: 'Website',
-      },
+      // {
+      //   src: 'https://github.com/SopanhaKok/Authentication_JWT_REACT',
+      //   title: 'Github',
+      // },
+      // {
+      //   src: 'https://react-jwt-authentication.herokuapp.com/',
+      //   title: 'Website',
+      // },
     ],
     projectImages: [],
   },
