@@ -1,5 +1,45 @@
 export const portfolioDatas = [
   {
+    title: 'IUS Girl Gaming',
+    content:
+      ' Building a dynamic website for in-game diamond top-ups, featuring seamless ABA payment integration, crafted with React to provide a smooth and interactive user experience.',
+    technologyImages: [
+      "https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB",
+      'https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white',
+      'https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white',
+      'https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white',
+      'https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white',
+    ],
+    links: [{
+      src: 'https://iusgirlgaming.com',
+      title: 'Website',
+    },],
+    projectImages: [
+      'https://github.com/user-attachments/assets/11841921-d0c2-4281-85b7-f5b99bd8de45',
+      'https://github.com/user-attachments/assets/ce3b116e-4d39-451f-b758-323e1d6ea392',
+    ],
+  },
+  {
+    title: 'PNT Store Diamond',
+    content:
+      ' Building a dynamic website for in-game diamond top-ups, featuring seamless ABA payment integration, crafted with React to provide a smooth and interactive user experience.',
+    technologyImages: [
+      "https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB",
+      'https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white',
+      'https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white',
+      'https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white',
+      'https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white',
+    ],
+    links: [{
+      src: 'https://pntstorediamond.com',
+      title: 'Website',
+    },],
+    projectImages: [
+      'https://github.com/user-attachments/assets/65636e77-2eaf-416e-8f19-973cf6bb2cd6',
+      'https://github.com/user-attachments/assets/cfdffb21-0a3b-43c3-ad10-51ea9f40751d',
+    ],
+  },
+  {
     title: 'KH Theatre',
     content:
       'KH Theatre is a mobile application designed to provide a seamless movie streaming experience. It offers users access to a vast library of films across various genres, from the latest blockbusters to timeless classics. The app includes features like user-friendly search and navigation, high-definition streaming, and multi-language support. Additionally, KH Theatre is optimized for mobile devices, ensuring smooth playback and an immersive viewing experience on the go.',
@@ -10,9 +50,7 @@ export const portfolioDatas = [
       'https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white',
       'https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white',
       'https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white',
-      'https://camo.githubusercontent.com/1be6c30fda837ce49cf2401c020ae478595897f5631a45b927b8a7bac1e67f78/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416d617a6f6e2b533326636f6c6f723d353639413331266c6f676f3d416d617a6f6e2b5333266c6f676f436f6c6f723d464646464646266c6162656c3d',
-      'https://camo.githubusercontent.com/30808bd28232c10ebbb7e7eb982ca6a332d1a33ea5e3f4e887023a3b6a43e07d/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416d617a6f6e2b526f7574652b353326636f6c6f723d384334464646266c6f676f3d416d617a6f6e2b526f7574652b3533266c6f676f436f6c6f723d464646464646266c6162656c3d',
-      'https://camo.githubusercontent.com/718d547b6f86bf024f942a4738dd56baae5450600b39ce140832e36af34051df/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416d617a6f6e2b45433226636f6c6f723d323232323232266c6f676f3d416d617a6f6e2b454332266c6f676f436f6c6f723d464639393030266c6162656c3d',
+     
     ],
     links: [],
     projectImages: [
@@ -31,10 +69,6 @@ export const portfolioDatas = [
       'https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white',
       'https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white',
       'https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white',
-      'https://camo.githubusercontent.com/64952244a7851ce3715dd9c8f3cb88673be00c8583f283192fd8c2cec645be7a/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d54656c656772616d26636f6c6f723d323641354534266c6f676f3d54656c656772616d266c6f676f436f6c6f723d464646464646266c6162656c3d',
-      'https://camo.githubusercontent.com/1be6c30fda837ce49cf2401c020ae478595897f5631a45b927b8a7bac1e67f78/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416d617a6f6e2b533326636f6c6f723d353639413331266c6f676f3d416d617a6f6e2b5333266c6f676f436f6c6f723d464646464646266c6162656c3d',
-      'https://camo.githubusercontent.com/30808bd28232c10ebbb7e7eb982ca6a332d1a33ea5e3f4e887023a3b6a43e07d/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416d617a6f6e2b526f7574652b353326636f6c6f723d384334464646266c6f676f3d416d617a6f6e2b526f7574652b3533266c6f676f436f6c6f723d464646464646266c6162656c3d',
-      'https://camo.githubusercontent.com/718d547b6f86bf024f942a4738dd56baae5450600b39ce140832e36af34051df/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416d617a6f6e2b45433226636f6c6f723d323232323232266c6f676f3d416d617a6f6e2b454332266c6f676f436f6c6f723d464639393030266c6162656c3d',
     ],
     links: [],
     projectImages: [
@@ -53,10 +87,6 @@ export const portfolioDatas = [
       'https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white',
       'https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white',
       'https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white',
-      'https://camo.githubusercontent.com/10256265ddc5757f964b1cd52020b33b9ca0a182f8bb4bc7814c865437d682ac/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416d617a6f6e2b53515326636f6c6f723d464634463842266c6f676f3d416d617a6f6e2b535153266c6f676f436f6c6f723d464646464646266c6162656c3d',
-      'https://camo.githubusercontent.com/1be6c30fda837ce49cf2401c020ae478595897f5631a45b927b8a7bac1e67f78/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416d617a6f6e2b533326636f6c6f723d353639413331266c6f676f3d416d617a6f6e2b5333266c6f676f436f6c6f723d464646464646266c6162656c3d',
-      'https://camo.githubusercontent.com/30808bd28232c10ebbb7e7eb982ca6a332d1a33ea5e3f4e887023a3b6a43e07d/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416d617a6f6e2b526f7574652b353326636f6c6f723d384334464646266c6f676f3d416d617a6f6e2b526f7574652b3533266c6f676f436f6c6f723d464646464646266c6162656c3d',
-      'https://camo.githubusercontent.com/718d547b6f86bf024f942a4738dd56baae5450600b39ce140832e36af34051df/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416d617a6f6e2b45433226636f6c6f723d323232323232266c6f676f3d416d617a6f6e2b454332266c6f676f436f6c6f723d464639393030266c6162656c3d',
     ],
     links: [],
     projectImages: [
@@ -74,10 +104,6 @@ export const portfolioDatas = [
       'https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white',
       'https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white',
       'https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white',
-      'https://camo.githubusercontent.com/10256265ddc5757f964b1cd52020b33b9ca0a182f8bb4bc7814c865437d682ac/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416d617a6f6e2b53515326636f6c6f723d464634463842266c6f676f3d416d617a6f6e2b535153266c6f676f436f6c6f723d464646464646266c6162656c3d',
-      'https://camo.githubusercontent.com/1be6c30fda837ce49cf2401c020ae478595897f5631a45b927b8a7bac1e67f78/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416d617a6f6e2b533326636f6c6f723d353639413331266c6f676f3d416d617a6f6e2b5333266c6f676f436f6c6f723d464646464646266c6162656c3d',
-      'https://camo.githubusercontent.com/30808bd28232c10ebbb7e7eb982ca6a332d1a33ea5e3f4e887023a3b6a43e07d/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416d617a6f6e2b526f7574652b353326636f6c6f723d384334464646266c6f676f3d416d617a6f6e2b526f7574652b3533266c6f676f436f6c6f723d464646464646266c6162656c3d',
-      'https://camo.githubusercontent.com/718d547b6f86bf024f942a4738dd56baae5450600b39ce140832e36af34051df/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416d617a6f6e2b45433226636f6c6f723d323232323232266c6f676f3d416d617a6f6e2b454332266c6f676f436f6c6f723d464639393030266c6162656c3d',
     ],
     links: [],
     projectImages: [
