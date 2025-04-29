@@ -15,8 +15,8 @@ export const portfolioDatas = [
       title: 'Website',
     },],
     projectImages: [
-      'https://github.com/user-attachments/assets/11841921-d0c2-4281-85b7-f5b99bd8de45',
-      'https://github.com/user-attachments/assets/ce3b116e-4d39-451f-b758-323e1d6ea392',
+      'https://drive.google.com/file/d/1IqzlfAd-3VckZh-vlAEKStkDloVK_Ylo/view?usp=sharing',
+      'https://drive.google.com/file/d/1osiKK49dj_c5nid1Q-Zgrv6l54jLPCrr/view?usp=sharing',
     ],
   },
   {
@@ -35,8 +35,8 @@ export const portfolioDatas = [
       title: 'Website',
     },],
     projectImages: [
-      'https://github.com/user-attachments/assets/65636e77-2eaf-416e-8f19-973cf6bb2cd6',
-      'https://github.com/user-attachments/assets/cfdffb21-0a3b-43c3-ad10-51ea9f40751d',
+      'https://drive.google.com/file/d/1KmT7yi2JOIm13txrYcb-styo-znqp75a/view?usp=sharing',
+      'https://drive.google.com/file/d/1ypwT4imzs-t38QasmrDo_2iK0vwH9m5x/view?usp=sharing',
     ],
   },
   {
