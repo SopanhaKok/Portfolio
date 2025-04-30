@@ -15,8 +15,7 @@ export const portfolioDatas = [
       title: 'Website',
     },],
     projectImages: [
-      'https://drive.google.com/file/d/1IqzlfAd-3VckZh-vlAEKStkDloVK_Ylo/view?usp=sharing',
-      'https://drive.google.com/file/d/1osiKK49dj_c5nid1Q-Zgrv6l54jLPCrr/view?usp=sharing',
+    
     ],
   },
   {
@@ -35,8 +34,7 @@ export const portfolioDatas = [
       title: 'Website',
     },],
     projectImages: [
-      'https://drive.google.com/file/d/1KmT7yi2JOIm13txrYcb-styo-znqp75a/view?usp=sharing',
-      'https://drive.google.com/file/d/1ypwT4imzs-t38QasmrDo_2iK0vwH9m5x/view?usp=sharing',
+      
     ],
   },
   {
